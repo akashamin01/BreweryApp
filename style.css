@@ -1,0 +1,51 @@
+.box-element {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 15px 10% 10px 10%;
+    list-style: none;
+    /* width: 50%; */
+}
+
+#search-brewery {
+    width: 50%;
+    height: 50px;
+}
+
+.registration-box {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 75px 10% 10px 10%;
+    text-align: center;
+}
+
+.input-field {
+    width: 75%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.btn-field {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #28a745;
+    border-radius: 10px;
+}
+
+
+.btn-field:hover {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #28a000;
+    border-radius: 10px;
+}
+
+#logout {
+    text-align: center;
+    background-color: #dc3545;
+    border-radius: 25%;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    border-style: none;
+}

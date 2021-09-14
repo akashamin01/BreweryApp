@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Brewery Search Engine</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body onload="breweryData()">
+    <div class="container" style="text-align: center;">
+        <p style="text-align: center;margin: 30px 0px 10px 0px;" id="userEmail">Welcome Email,</p>
+        <p style="text-align:center;margin: 0px 0px 20px 0px;" id="location"></p>
+        <button style="text-align:center" id="logout" onclick="logoutMe()">Logout </button>
+        <h1 style="text-align: center; margin: 20px 0px 40px 0px;">List of Breweries in United States</h1>
+        <form style="text-align: center;" action="javacript:void(0)">
+            <label for="search">Search:</label>
+            <input type="text" name="search" id="search-brewery" placeholder="Search for Breweries by Name/Locations" onkeyup="searchFunc()">
+          </form>
+          <ul id="breweryListUL">
+            <div id="brewery-list"></div>
+          </ul>
+    </div>
+</body>
+</html>

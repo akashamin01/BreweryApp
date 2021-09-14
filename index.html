@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body onload="loginLoad()">
+  <section id="registration">
+    <div class="registration-box">
+      <h1>Login Page</h1>
+      <p id="error-message"></p>
+      <p id="local-storage-message"></p>
+      <form action="javascript:void(0)">
+        <input class="input-field" type="email" name="email" id="email" placeholder="Enter Email" autofocus required>
+        <input class="input-field" type="password" name="password" id="password" placeholder="Enter Password" required>
+        <input class="btn-field" id="submitbtn" type="submit" value="Login" onclick="getLoggedIn()">
+    </div>
+  </section>
+</body>
+</html>
